@@ -1,0 +1,30 @@
+
+
+ul.follow-section {
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+div.follow-section li.follow-items {
+    padding: 0;
+    list-style: none;
+}
+/* 
+Media Query
+*/
+
+@media only screen and (min-width:768){
+
+    div.scroll-section {
+            width:500px;
+            overflow: scroll;
+        }
+    nav{
+        height: 100vh;
+    }
+    
+}
